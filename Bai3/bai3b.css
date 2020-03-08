@@ -1,0 +1,19 @@
+/* div{
+	width: 250px;
+} */
+body{
+	display: block;
+}
+.chan{
+	background: blue;
+}
+.le{
+	background: red;
+}
+span {
+	width: 51%;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 2px solid #e8e8e8;
+	float: left;
+}

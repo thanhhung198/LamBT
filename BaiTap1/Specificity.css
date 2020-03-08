@@ -1,0 +1,28 @@
+/* 2 thằng có giá trị specificity bằng nhau, viết sau sẽ đc apply*/
+/* h1{
+	background: red;
+	}
+h1{
+		background: yellow;
+	} */
+
+/* So sánh độ ưu tiên */
+h1 {
+	background: red ; 
+}
+.b{
+	background: green;
+}
+#a{
+	background: yellow;
+}
+/* Nhưng khi đặt !important thì cái đó sẽ luôn được apply */
+h1 {
+	background: #603 !important; 
+}
+.b{
+	background: green;
+}
+#a{
+	background: yellow;
+}

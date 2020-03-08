@@ -1,0 +1,32 @@
+ul{
+	width: 250px;
+}
+/* ul li{
+	line-height: 45px;
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	top: 0px;
+	left: 0;
+	float: left; 
+	display: inline-block;
+	} */
+	.le {
+		background: red;
+	}
+	.chan {
+		background: blue;
+	}
+	#menu ul li {
+		list-style-type: none;
+	}
+	#menu ul li a{
+		width: 250px;
+		height: 40px;
+		margin: 0 auto;
+		padding: 2px;
+		border-bottom: 2px solid #e8e8e8;
+		display: block;
+		/* float: left; */
+		color: #fff;
+	}
